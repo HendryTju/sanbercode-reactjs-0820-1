@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama: Hendry Tju
+2. Email: hendry82@ui.ac.id
+3. Sistem Operasi yang digunakan: Windows
+4. Akun Gitlab: https://github.com/HendryTju
+5. Akun Telegram: HendryTju
