@@ -1,41 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us!</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="public/css/style.css" />
   </head>
   <body>
-    <!-- Hubungi Kami -->
-    <div>
-      <h1>Hubungi Kami</h1>
-      <p>Kantor: Jalan Belum Jadi</p>
-      <p>Telepon: 08xxxxxxxxxxx</p>
-      <p>Email: belumjadi@email.com</p>
-    </div>
-    <!-- Kirimkan Pesan -->
-    <div>
-      <h1>Kirimkan Pesan</h1>
-      <form>
-        <label for="name">Nama:</label>
-        <input type="text" id="name" name="name" /><br /><br />
-        <label for="Email">Email:</label>
-        <input type="text" id="email" name="email" /><br /><br />
-        <label for="Sex">Jenis Kelamin:</label>
-        <input type="radio" id="male" name="gender" value="male" />
-        <label for="male">Male</label>
-        <input
-          type="radio"
-          id="female"
-          name="gender"
-          value="female"
-          checked="checked"
-        />
-        <label for="female">Female</label><br /><br />
-        <label for="Pesan">Pesan Anda:</label>
-        <input type="text" id="pesan" name="pesan" /><br /><br />
-        <input type="Kirim" value="Kirim" />
-      </form>
+    <header>   
+      <img id="logo" src="public/img/logo.png" width="200px" />
+      <nav>
+        <ul>
+          <li class="header-list"><a href="index.html">Home</li></a>
+          <li class="header-list"><a href="about.html">About</li></a>
+          <li class="header-list"><a href="contact.html" class="active">Contact</li></a>
+        </ul>
+      </nav>
+  </header>
+    <div class="container">
+      <section>
+        <div>
+          <h1>Hubungi Kami</h1>
+          <ul type="none">
+            <li><b>Kantor:</b> di jalan belum jadi</li>
+            <li><b>Nomor Telepon:</b> 08XX-XXXX-XXXX</li>
+            <li><b>Email:</b> email@contoh.com</li>
+          </ul>
+        </div>
+
+        <div>
+          <h1>Kirimkan Pesan</h1>
+          <!-- Create a table to make a better view, get idea from telegram class -->
+          <table border="0">
+            <form action="" method="post">
+              <tr>
+                <td><span class="bold">Nama</span></td>
+                <td><input type="text" class="long" /></td>
+              </tr>
+              <tr>
+                <td><span class="bold">Email</span></td>
+                <td><input type="email" class="long" /></td>
+              </tr>
+              <tr>
+                <td><span class="bold">Jenis Kelamin</span></td>
+                <td><input type="radio" id="male" name="gender" value="male">
+                <label for="male" checked>Laki-Laki</label><br></td>
+                <td><input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br></td>
+              </tr>
+              <tr>
+                <td><span class="bold">Pesan Anda</span></td>
+                <td><textarea rows="2rem" class="long"></textarea></td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="button" value="Kirim" />
+                </td>
+              </tr>
+            </form>
+          </table>
+        </div>
+      </section>
     </div>
   </body>
 </html>

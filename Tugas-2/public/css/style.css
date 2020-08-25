@@ -1,0 +1,75 @@
+/* global CSS */
+body {
+  background-image: url(../img/pattern.jpg);
+}
+
+/* global - nav */
+/* source: w3schools */
+/* For this create an inline list items */
+
+nav {
+  display: block;
+  position: absolute;
+  width: 300px;
+  height: inherit;
+  top: 0;
+  right: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.header-list {
+  float: left;
+}
+
+.header-list a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4caf50;
+}
+
+/* Index - Section - div */
+.section {
+  background-color: blue;
+}
+
+/* Article */
+
+section {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 0.2rem;
+  bottom: 0;
+  width: 35rem;
+  height: 100%;
+  padding: 20px;
+  background-color: white;
+  box-sizing: border-box;
+}
+/* Create card for each article */
+
+/* Footer */
+/* Source: w3schools */
+footer {
+  position: relative;
+  display: inline-block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
