@@ -8,7 +8,7 @@ body {
 /* For this create an inline list items */
 
 nav {
-  display: block;
+  display: flex;
   position: absolute;
   width: 300px;
   height: inherit;
